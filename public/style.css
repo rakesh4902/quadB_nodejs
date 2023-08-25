@@ -155,7 +155,7 @@ tbody td:last-child {
   body {
     background-color: var(--background-color);
   }
-  /* css for header */
+ 
   .header {
     display: flex;
     justify-content: space-between;
@@ -188,7 +188,6 @@ tbody td:last-child {
     margin-right: 5px;
   }
   
-  /* css for switch */
   .switch {
     position: relative;
     display: inline-block;
@@ -240,7 +239,6 @@ tbody td:last-child {
     -ms-transform: translateX(26px);
     transform: translateX(26px);
   }
-  /* Rounded sliders */
   .slider.round {
     border-radius: 34px;
   }

@@ -35,10 +35,10 @@ function populateTable(tickers) {
 window.onload = function () {
     loader.classList.remove('hidden');
     table.classList.add('hidden');
-    fetchData(); // Fetch initially
+    fetchData();
 
     setInterval(() => {
-        fetchData(); // Fetch every 2 seconds
+        fetchData();
     }, 2000);
 };
     
